@@ -437,6 +437,7 @@ mark,
 .mark {
   padding: 0.2em;
   background-color: #fcf8e3;
+  
 }
 
 .list-unstyled {
@@ -9982,6 +9983,7 @@ h3 {
 body {
   padding-top: 3.375rem;
   color: #17a2b8bf;
+ 
 }
 
 @media (min-width: 992px) {
@@ -10070,7 +10072,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #17a2b8bf;
-  color: #fff;
+  color: rgb(105, 139, 41);
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -10079,11 +10081,19 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  /* background-color: #bd9e38; */
+  text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  transform: rotateY(0deg) scale(0.8);
+  opacity: 0.5;
+  background: linear-gradient(45deg,#fbff00,#00bcd4);
 }
 
 .dev-icons {
-  font-size: 3rem;
+
+  
+  font-size: 2rem;
+  
 }
 
 section.resume-section {
